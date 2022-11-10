@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>third_task</title>
+    <script src="third_task.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+    let diagram = diagramCreate([20, 15, 7, 18, 55, 14, 147, 23, 58, 64, 78],
+        400,
+        500,
+        "violet");
+    
+    let conteiner = document.querySelector("#diagramOutput");
+    conteiner.append(diagram)
+    
+})
+    </script>
+</head>
+<body>
+    <div id="diagramOutput"></div>
+</body>
+</html>
